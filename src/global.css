@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font: 400 14px Nunito, sans-serif;
+  background: #24baa6;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea {
+  font: 400 18px Nunito, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+
+.form input {
+  background: #cffff7;
+  border: none;
+  border-radius: 10px;
+  padding: 24px;
+  font-size: 22px;
+}
+
+.form textarea {
+  background: #cffff7;
+  resize: vertical;
+  width: 100%;
+  min-height: 140px;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 24px;
+  font-size: 22px;
+  line-height: 24px;
+}

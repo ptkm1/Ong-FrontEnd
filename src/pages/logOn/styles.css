@@ -1,0 +1,77 @@
+h1 {
+  color: #cffff7;
+}
+
+.Logotipo {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.Logotipo img {
+  width: 90px;
+  margin-right: 5px;
+}
+
+.logon-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 70%;
+  height: 40px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  background: #cffff7;
+  color: #710d7f;
+}
+
+.form button {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #cffff7;
+  color: #710d7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.form button:hover {
+  transition: 0.5s;
+  border-radius: 50px;
+  color: #710d7f;
+}
+
+.form a {
+  font-size: 19px;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 210px;
+}

@@ -1,0 +1,167 @@
+.perfil-content {
+  width: 95vw;
+  padding: 0 30px;
+  margin: 5px auto;
+}
+
+.perfil-content header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.perfil-content header .leftside {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.perfil-content header .leftside img {
+  width: 60px;
+}
+
+.perfil-content header .leftside span {
+  color: purple;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.perfil-content header .rightside .button {
+  background: white;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: purple;
+}
+
+.perfil-content header .rightside .button:hover {
+  background: #cffff7;
+}
+
+.perfil-content header .rightside .deslog {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.perfil-content header .rightside .deslog:hover {
+  background: #cffff7;
+}
+
+/* CASOS */
+
+.perfil-content h1 {
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+.perfil-content ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 24px;
+  list-style: none;
+}
+
+.perfil-content ul li {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.perfil-content ul li button {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  border: 0;
+  background: none;
+}
+
+.perfil-content ul li button:hover {
+  opacity: 0.8;
+}
+
+.perfil-content ul li strong {
+  display: block;
+  margin-bottom: 16px;
+  color: #41414d;
+}
+.perfil-content ul li p + strong {
+  margin-top: 32px;
+}
+
+.perfil-content ul li p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 678px) {
+  .perfil-content header .rightside .deslog {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .perfil-content header .rightside .button {
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: purple;
+  }
+
+  .perfil-content header .leftside span {
+    color: purple;
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 0px;
+  }
+
+  .perfil-content {
+    width: 100vw;
+    padding: 0 15px;
+    margin: 5px auto;
+  }
+
+  .perfil-content h1 {
+    text-align: center;
+  }
+
+  .perfil-content ul {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .perfil-content ul li {
+    margin-top: 24px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .perfil-content header .leftside {
+    width: 40%;
+  }
+
+  .perfil-content ul li {
+    margin-top: 24px;
+    width: 100%;
+  }
+
+  .perfil-content ul li p {
+    font-size: 14px;
+  }
+
+  .perfil-content ul li strong {
+    font-size: 14px;
+  }
+}
